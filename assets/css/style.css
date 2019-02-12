@@ -39,7 +39,7 @@ ul {
     color: gray;
   }
 
-  li{
+  .navList{
       float:right;
       color: gray;
       text-align: center;
