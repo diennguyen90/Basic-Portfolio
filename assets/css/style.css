@@ -1,0 +1,64 @@
+#container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10vh 1fr 1fr 1fr;
+}
+
+header{
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+
+}
+
+#myNameBox{
+    float:left;
+    background-color: #4AAAA5;
+    color: white;
+    margin-left: 10%;
+    width: 100px;
+    text-decoration: none;
+}
+
+#wallpaper{
+    grid-row: 2 / span 1;
+    padding: 25px 75px 50px 75px;
+    background-color: gray;
+}
+#aboutMe{
+    grid-row:2 / span 1;
+    background-color: white;
+    padding: 15px 25px 15px 25px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: gray;
+  }
+
+  li{
+      float:right;
+      color: gray;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+
+  #padFooter{
+      padding-top:10px;
+      background-color: teal;
+  }
+
+  #mainFooter{
+      text-align: center;
+      background-color: gray;
+      height: 10vh;
+      vertical-align:bottom;
+  }
+
+  footer{
+      grid-row: 3 / span 1;
+  }
+ 
