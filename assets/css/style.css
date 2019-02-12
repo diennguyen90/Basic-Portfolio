@@ -1,13 +1,14 @@
 #container{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 10vh 1fr 1fr 1fr;
+    grid-template-rows: 50px 1fr 50px;
 }
 
 header{
     grid-column: 1 / span 1;
     grid-row: 1 / span 1;
-
+    background-color:white;
+    font-family: Georgia;
 }
 
 #myNameBox{
@@ -22,7 +23,7 @@ header{
 #wallpaper{
     grid-row: 2 / span 1;
     padding: 25px 75px 50px 75px;
-    background-color: gray;
+    background-color: #EDEDED;
 }
 #aboutMe{
     grid-row:2 / span 1;
@@ -60,5 +61,15 @@ ul {
 
   footer{
       grid-row: 3 / span 1;
+      background-color:#666666;
   }
  
+  img{
+      height:10vh;
+      width:15vh;
+      /* border-radius: 15px */
+      padding: 2px;
+  }
+  p{
+      font-family: arial;
+  }
