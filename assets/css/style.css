@@ -31,18 +31,35 @@ header{
     padding: 5vh 25vw 5vh 25vw;
     background-color: #EDEDED;
 }
+#wallpaperPortfolio{
+    grid-row: 2 / span 1;
+    padding: 5vh 25vw 5vh 25vw;
+    background-color: #EDEDED;
+}
 #aboutMe{
     grid-row:2 / span 1;
     background-color: white;
     padding: 15px 25px 15px 25px;
 }
-
 #contactMe{
     grid-row:2 / span 1;
     background-color: white;
     padding: 15px 25px 15px 25px;
 }
-
+#portfolio{
+    grid-row:2 / span 1;
+    background-color: white;
+    padding: 15px 25px 15px 25px;
+}
+#insidePortfolio{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 5vh 5vw;
+}
+h1{
+    color:#4AAAA5;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -61,7 +78,7 @@ ul {
 
   #padFooter{
       padding-top:10px;
-      background-color: teal;
+      background-color:#4AAAA5;
   }
 
   #mainFooter{
@@ -108,3 +125,5 @@ ul {
     color: white;
     width: 10%;
   }
+
+ 
